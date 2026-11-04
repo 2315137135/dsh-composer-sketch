@@ -2,6 +2,14 @@
 
 把 Excalidraw 做成宿主右侧栏的一种标签：从“开始”页的卡片或输入框旁的按钮打开，画完把结果作为附件插入当前草稿。
 
+## 安装
+
+```
+plugin_manager install_bundle target=github:2315137135/dsh-composer-sketch
+```
+
+更新时先 `plugin_manager remove_bundle target=@local/dsh-composer-sketch` 再装：`github:` 规格按 lockfile 解析，直接重装会命中旧解析。改过 `index.js` 需重启 DSH。
+
 ## 使用
 
 1. 打开白板标签；关闭后再打开会恢复上一次的场景。
