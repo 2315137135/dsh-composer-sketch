@@ -1,0 +1,3 @@
+- insert:
+    - id: composer-sketch
+      name: '@local/dsh-composer-sketch'

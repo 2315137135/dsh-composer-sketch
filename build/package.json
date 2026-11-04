@@ -1,0 +1,15 @@
+{
+  "name": "dsh-composer-sketch-build",
+  "private": true,
+  "type": "module",
+  "description": "Bundles the Excalidraw whiteboard chunk for @local/dsh-composer-sketch.",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "devDependencies": {
+    "@excalidraw/excalidraw": "0.18.1",
+    "esbuild": "0.28.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
